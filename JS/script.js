@@ -22,6 +22,6 @@ myButton.addEventListener('click', (event) => {
 
   if(clickCount === 3) {
     myButton.disabled = true;
-    alert('Você perdeu, tente novamente');
+    alert(`Você perdeu, tente novamente o número aleátorio era: ${numberRandom}`);
   }
 });
