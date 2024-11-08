@@ -26,27 +26,33 @@ body {
   border: 1px solid black;
 }
 
-.conteiner-heading h1 {
+@media (max-width: 600px) {
+  .container {
+    width: 450px;
+  }
+}
+
+.container-heading h1 {
   text-align: center;
   margin-top: 10px;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.conteiner-heading p {
+.container-heading p {
   text-align: center;
   margin-bottom: 80px;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.conteiner-img img {
+.container-img img {
   width: 300px;
 }
 
-.conteiner-input input {
+.container-input input {
   margin-top: 10px;
 }
 
-.conteiner-input input[type="submit"] {
+.container-input input[type="submit"] {
   padding: 5px;
   background-color: rgb(114, 114, 236);
   color: white;
